@@ -1,0 +1,107 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #8A0303 30%, white 50%, #001F3F 80%);
+    color: black;
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    width: 80%;
+    padding: 40px 0;
+    position: relative;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* Style for the project containers */
+.projects-container {
+    display: flex; /* Use flexbox to arrange items side by side */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 30px; /* Space between the two rows */
+}
+
+/* Style the project cards */
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.card a:hover {
+    background: #8A0303;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 500;
+}
